@@ -15,9 +15,7 @@ client.connect();
 setInterval(() => {
     var textArray = [
         'This stream is powered by https://antiscuff.com - The most powerful and easy to use OBS Cloud Hosting.',
-        'This livestream is powered by https://antiscuff.com - Affordable, safe and powerful OBS Cloud Hosting.',
-        'Here is another sentence.',
-        'Here is even another sentence.'
+        'This livestream is powered by https://antiscuff.com - Affordable, safe and powerful OBS Cloud Hosting.'
     ];
     var randomString = Math.floor(Math.random()*textArray.length);
     client.say('jasperdiscovers', textArray[randomString]);
