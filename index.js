@@ -21,4 +21,4 @@ setInterval(() => {
     ];
     var randomString = Math.floor(Math.random()*textArray.length);
     client.say('jasperdiscovers', textArray[randomString]);
-}, 10000);
+}, 120000);
