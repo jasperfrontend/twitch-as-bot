@@ -1,4 +1,4 @@
-require('dotenv').config({ debug: true });
+require('dotenv').config();
 const tmi = require('tmi.js');
 
 const client = new tmi.Client({
